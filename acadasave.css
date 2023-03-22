@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navigation section */
+
+.navbar-light .navbar-nav .active>.nav-link {
+    font-size: 15px;
+    color: #b7b6b9;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-btn, .nav-btn2 {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    outline: none;
+    border: 0;
+    box-shadow: 0;
+    padding: 7px 14px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.nav-btn2 {
+    background-color: #725AC1;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.nav-btn2:hover {
+    background: rgba(165, 214, 30, 0.882);
+}
+
+/* header/hero section */
+
+.header-section{
+    position: relative;
+    top: 50px;
+}
+
+.header-info{
+    top: 80px;
+    left: 10px;
+}
+
+.head-img {
+    width: 110%;
+    margin-left: -30px;
+}
+
+
+.head-item {
+    color: #20124e;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+
+.head-para {
+    color: rgba(7, 5, 5, 0.541);
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+.head-button {
+    background-color: #725AC1;
+    color: #fff;
+    outline: none;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-transform: UPPERCASE;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+
+.head-button:hover {
+    background: rgba(165, 214, 30, 0.882);
+}
+
+/* first card section */
+
+.card-section-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #20124e;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.card-section {
+    display: flex;
+    margin-right: 0;
+}
+
+.card-item {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 4%;
+    margin: 0 15px;
+    max-width: 250px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: #20124e;
+}
+
+.card-para {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #b7b6b9;
+    margin-bottom: 25px;
+}
+
+.card-item-footer {
+    background: #f13012d3;
+    padding: 3px;
+    width: 250px;
+    margin-left: -15px;
+}
+
+/* second hero section */
+
+.how-it-works{
+    background: #ebe5f75b;
+}
+
+/* second section - access to loans */
+
+.second-section{
+    position: relative;
+    display: flex;
+}
+
+.section-info{
+    top: 80px;
+    left: 40px;
+}
+
+.section-title{
+    font-weight: 400;
+    color: #20124e;
+}
+
+.section-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #b7b6b9;
+}
+
+.text-block {
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 500px;
+    top: 155px;
+    color: #20124e;
+}
+
+.section-img {
+    position: relative;
+    width: 100%;
+    top: -45px;
+    margin-left: 50px;
+}
+
+/* third section - access to internships */
+
+.third-section{
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+
+.third-section-img {
+    position: relative;
+    width: 80%;
+}
+
+.third-section-info{
+    top: 160px;
+    left: 80px;
+
+}
+
+.third-section-title{
+    font-weight: 400;
+    color: #20124e;
+}
+
+.third-section-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #b7b6b9;
+}
+
+/* fourth section - Dedicated interest */
+
+.fourth-section{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+}
+
+.fourth-section-img{
+    position: relative;
+    top: 20px;
+}
+
+
+/* packages section */
+
+.sectn-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+.second-card-item {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 0%;
+    height: 480px;
+    width: 320px;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 5px;
+}
+
+.card-header-1{
+    background-color: rgb(231, 165, 220);
+    border-radius: 3%;
+    padding: 10px 40px;
+}
+
+.card-header-2{
+    background-color: blue;
+    border-radius: 3%;
+    padding: 10px 40px;
+}
+
+.card-header-3{
+    background-color: rgb(233, 66, 36);
+    border-radius: 3%;
+    padding: 10px 40px;
+}
+
+.paragraphs{
+    margin-top: 30px;
+}
+
+
+.para-item{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,0.3);
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 30px;
+    font: 500;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0.75rem 1.25rem;
+    border-top: 1px solid rgba(0,0,0,.125);
+    position: absolute;
+    top: 400px;
+    width: 270px;
+}
+
+.card-btn{
+    background-color: #725AC1;
+    color: #fff;
+    outline: none;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.card-btn:hover {
+    background: rgba(165, 214, 30, 0.882);
+}
+
+/* testimonial section */
+
+.testimonial-section {
+    position: relative;
+    background: #ebe5f75b;
+}
+
+.testimonial-sec {
+    display: flex;
+}
+
+.customers{
+    margin-left: 20px;
+}
+
+.text-card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 15px 30px;
+}
+
+.text-card-body h3{
+    color: #20124e;
+    font-size: 25px;
+    margin: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.arrows i {
+    color:#b7b6b9;
+    background:#ffffff;
+    padding: 5px;
+}
+
+.text-card-body p {
+    font-family: 'Roboto', sans-serif;
+    color: #b7b6b9;
+    font-size: 15px;
+    line-height: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-card-footer{
+    background-color: transparent;
+    border-top: 1px solid #b7b6b9;
+    width: 250px;
+    margin-left: 60px; 
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.text-card-footer img {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    border-radius: 75%;
+    margin-right: 10px;
+}
+
+.text-card-footer h5{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #b7b6b9;
+}
+
+
+.new-account{
+    background: #ebe5f75b;
+    margin-top: -30px;
+}
+
+.create-account{
+    margin: 30px;
+    max-width: 1010px;
+    display: flex;
+    position: relative;
+    top: 60px;
+    background: #0e8bd3;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.newaccount-info {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.new-account-title{
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.new-account-para{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    color: #fff;
+}
+
+.last-button {
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.last-button:hover {
+    background: rgba(165, 214, 30, 0.882);
+}
+
+.get-Started {
+    color: #5000CA;
+    background: #ffffff;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.get-Started:hover {
+    background: rgba(165, 214, 30, 0.882);
+}
+
+
+footer {
+    background: #20124e;
+    margin-top: -30px;
+}
+
+
+.footer-container{
+    margin-top: 30px;
+    max-width: 1140px;
+    height: 55vh;
+
+}
+
+.final-section{
+    position: relative;
+    top: 110px;
+    margin-left: 20px;
+}
+
+.footer-para{
+    margin: 25px 0;
+    color: #b7b6b9;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.brand-img img{
+    margin-right: 20px;
+}
+
+.side-bar h4{
+    color: #fff;
+    font-size: 15px;
+}
+
+.about-us{
+    font-family: 'Roboto', sans-serif;
+    margin: 50px 0;
+    font-weight: 400;
+}
