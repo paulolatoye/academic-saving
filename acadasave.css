@@ -215,6 +215,12 @@
     display: flex;
 }
 
+
+.fourth-section-info {
+    top: 80px;
+    left: 40px;
+}
+
 .fourth-section-img{
     position: relative;
     top: 20px;
@@ -476,4 +482,203 @@ footer {
     font-family: 'Roboto', sans-serif;
     margin: 50px 0;
     font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+
+    body{
+        max-width: 375px;
+        box-sizing: border-box;
+    }
+
+
+    br{
+        display: none;
+    }
+
+    .row{
+        margin: 0! important;
+    }
+
+    .header-info {
+        overflow: hidden;
+    }
+    
+    .header-section {
+        top: -40px;
+    }
+    
+    .head-img {
+        position: relative;
+        width: 100%;
+        left: 24px;
+        top: 100px;
+    }
+
+    .card-section-title {
+        position: relative;
+        left: 95px;
+    }
+
+    .card-item {
+        margin-bottom: 20px;
+        position: relative;
+        max-width: 300px;
+        left: 20px;
+    }
+
+    .card-item-footer {
+        width: 300px;
+    }
+
+    .text-block {
+        position: absolute;
+        left: -462px;
+        top: 25px;
+        color: #20124e;
+    }
+
+    .section-info {
+        width: 100%;
+        left: 17px;
+    }
+
+    .section-img {
+        position: relative;
+        width: 92%;
+        top: 101px;
+        left: -52px;
+    }
+
+    .third-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .third-section-info {
+        top: 120px;
+        left: 15px;
+    }
+
+    .third-section-img {
+        position: relative;
+        width: 85%;
+        top: 140px;
+    }
+
+    .fourth-section-info{
+        position: relative;
+        top: 125px;
+        left: 15px;
+    }
+
+    .fourth-section-info h2 {
+        font-size: 33px;
+        width: 100%;
+    }
+
+    .fourth-section-img {
+        position: relative;
+        top: 145px;
+        width: 90%;
+        left: -7px;
+    }
+
+    .package-section {
+        position: relative;
+        top: 110px;
+    }
+
+    .second-card-item {
+        width: 310px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .testimonial-section {
+        top: 40px;
+    }
+
+    .testimonial-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customers {
+        margin-bottom: 15px;
+    }
+
+    .text-card-body h3 {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .text-card {
+        position: relative;
+        margin-bottom: 15px;
+        left: -15px;
+    }
+
+    .text-card-footer {
+        margin-left: 8px;
+    }
+
+    .last-button {
+        margin-left: 0;
+    }
+
+    .newaccount-info {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .create-account {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: -14px;
+        margin: 10px;
+        padding: 13px;
+    }
+
+    .new-account-title {
+        margin-left: -17px;
+    }
+
+    .new-account-para {
+        margin-left: -14px;
+    }
+
+    .get-Started {
+        position: relative;
+        left: 50px;
+    }
+
+    .footer-container {
+        height: 66vh;
+    }
+
+    .final-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -8px;
+    }
+
+    .side-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quick-links {
+        position: relative;
+        top: 20px;
+    }
+
+    .about-us {
+        position: relative;
+        margin-top: 10px;
+        top: 20px;
+    }
 }
